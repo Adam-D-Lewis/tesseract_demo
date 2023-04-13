@@ -2,9 +2,8 @@ name: pytess
 channels:
   - conda-forge
 dependencies:
-  # jupyterhub/jupyterlab
   - jupyterlab 
   - pandas
   - pillow
   - pytesseract
-  - tesseract
+  - tesseract<5
